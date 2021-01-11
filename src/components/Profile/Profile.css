@@ -1,0 +1,29 @@
+.Profile{
+  padding: 40px;
+  padding-top: 100px;
+}
+.profile__user{
+  display:flex;
+  justify-content: space-between;
+}
+.profile__inner{
+  width: 70%;
+}
+
+@media (max-width: 1024px){
+  .profile__inner{
+    width: 65%;
+  }
+}
+
+@media (max-width: 768px){
+  .profile__user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile__inner{
+    width: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+.Dialogs{
+    padding-top: 100px ;
+}
+.dialogs__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 95%;
+    height: 85vh;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,16 @@
+.warning{
+    position: absolute;
+    font-size: 13px;
+    bottom: 0;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    color: red;
+    width: 100%;
+    z-index: 1000000;
+}
+.required{
+    border: 2px solid red;
+}
+.Login_remember{
+    color:#fff;
+}

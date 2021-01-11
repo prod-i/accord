@@ -1,0 +1,45 @@
+.paginators__selectedPage_wrapper{
+    display: flex;
+    margin: 0 0 40px 15px;
+}
+.paginators__selectedPage{
+    display: flex;
+    margin: 10px 15px;
+    padding-left: 3px;
+
+    min-width:30px;
+    width: 30px;
+    height: 45px;
+    background-color: #363146;
+    color: rgb(190, 185, 75);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.paginators__activePage{
+    color: rgb(148, 142, 25);
+    background-color: #483f61;
+}
+.prev{
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    font-weight: 900;
+    color: #483f61;
+}
+.next{
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    font-weight: 900;
+    color: #483f61;
+}

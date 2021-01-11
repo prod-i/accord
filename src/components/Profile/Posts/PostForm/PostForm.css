@@ -1,0 +1,65 @@
+.profile__inputPost_wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile__newpost {
+    width: 80%;
+    height: 45px;
+    padding: 15px;
+    font-size: 15px;
+    background-color: #ece7ff;
+    border-radius: 4px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    resize: none;
+    hyphens: auto;
+}
+
+.profile__newpost::placeholder {
+    font-size: 12px;
+}
+
+.profile__newpost_add {
+    width: 15%;
+    height: 45px;
+    padding: 10px 3px;
+    font-size: 10px;
+    margin: 0 auto;
+    background-color: #48405c;
+    color: rgb(190, 185, 75);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.profile__newpost_add:hover {
+    background-color: #2b2538;
+}
+
+@media (max-width: 420px){
+    .profile__inputPost_wrapper {
+        display: block;
+        align-items: center;
+    }
+    .profile__newpost {
+        padding: 10px;
+        height: 50px;
+        overflow: hidden;
+        width: 100%;
+    }
+    .profile__newpost_add {
+        margin-top: 5px;
+        width: 40%;
+        height: 35px;
+    }
+  }

@@ -1,0 +1,32 @@
+.CreateMessageForm {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    min-width: 85%;
+    max-width: 85%;
+}
+
+.new_message {
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    color: #ccc;
+    background-color: rgba(255, 255, 255, 0.1);
+    resize: none;
+}
+
+.add__voice {
+    border: 0;
+    background:none;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 6%;
+    width: 10%;
+    outline: 0;
+}

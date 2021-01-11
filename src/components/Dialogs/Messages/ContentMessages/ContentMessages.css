@@ -1,0 +1,10 @@
+.messages__content{
+    display: flex;
+    overflow-x: hidden;
+	overflow-y: auto;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 83%;
+    width: 100%;
+    padding: 10px;
+}

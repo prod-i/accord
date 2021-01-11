@@ -1,0 +1,106 @@
+.users__item{
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100%;
+    height: 200px;
+
+    padding: 20px;
+    border-top: rgba(60, 50, 84, 0.5) 1px solid;
+    border-bottom: rgba(60, 50, 84, 0.5) 1px solid;
+}
+.users__item_wrapper{
+    display: flex;
+
+    width: 60%;
+}
+.users__avatar{
+    min-width:150px;
+    min-height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+    align-self: center;
+    overflow: hidden;
+    position: relative;
+}
+.avatar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.users__info{
+    display: flex;
+    flex-direction: column;
+}
+.users__info_name{
+    font-size: 23px;
+    font-weight: 600;
+}
+.users__info_status{
+    height: 45px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: rgb(221, 224, 186);
+    margin: 5px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.users__location{
+    font-size: 10px;
+    margin-right: 5px;
+}
+.users__info_location{
+    font-size: 14px;
+}
+.users__newMessage{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 10px;
+
+    width: 180px;
+    height: 40px;
+    background-color: #48405c;
+    color: rgb(190, 185, 75);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+.users__options{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.users__settings{
+    margin-left: auto;
+}
+.users__follow{
+    display: flex;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+
+    width: 180px;
+    height: 50px;
+    background-color: #48405c;
+    color: rgb(190, 185, 75);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+.users__follow:hover{
+    background-color: #2b2538;
+}

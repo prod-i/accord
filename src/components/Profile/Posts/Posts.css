@@ -1,0 +1,10 @@
+.profile__createPost {
+  padding: 12px;
+}
+.profile__createPost p {
+  font-size: 18px;
+  font-weight: 900;
+  color: rgb(190, 185, 75);
+  margin-top: 10px;
+  margin-bottom: 30px;
+}

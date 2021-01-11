@@ -1,0 +1,15 @@
+.message__wrapper{
+    width: 100%;
+}
+.message__item{
+    line-height: 25px;
+    background-color: #3f3d4d;
+    border-radius: 10px 10px 10px 0;
+    padding: 10px;
+    height: initial;
+    min-height: 45px;
+    min-width: 20%;
+    max-width: 60%;
+    margin-bottom: 10px;
+    word-break:break-all;
+}
