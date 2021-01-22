@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f49c6b64fe37fd9bd2e22f2f3c13893",
+    "revision": "8e77b13fafc36ab1b80af1fbd7e36753",
     "url": "/accord/index.html"
   },
   {
-    "revision": "97e10d0c0fa268bc8b3e",
-    "url": "/accord/static/css/3.471c7e8e.chunk.css"
+    "revision": "6447aed32837d0824859",
+    "url": "/accord/static/css/3.01e9c5c3.chunk.css"
   },
   {
-    "revision": "400a9994126ba64db646",
-    "url": "/accord/static/css/4.46ebee01.chunk.css"
+    "revision": "d3d8ed5ed37f1638cdb6",
+    "url": "/accord/static/css/4.aebaaae2.chunk.css"
   },
   {
-    "revision": "e2a81c0e3707fad00782",
-    "url": "/accord/static/css/5.1a618e48.chunk.css"
+    "revision": "46c6e727e7c5f359257e",
+    "url": "/accord/static/css/5.3da6b11e.chunk.css"
   },
   {
     "revision": "75bddf70acb4d3c58cb6",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/accord/static/css/7.34e8a3e8.chunk.css"
   },
   {
-    "revision": "5a21e332c51beaddd081",
-    "url": "/accord/static/css/main.be1344c2.chunk.css"
+    "revision": "48b60ae844496a484b17",
+    "url": "/accord/static/css/main.d4ca2ab0.chunk.css"
   },
   {
     "revision": "3a2e9ab66297f7b14592",
@@ -36,16 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/accord/static/js/2.982718ba.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "97e10d0c0fa268bc8b3e",
+    "revision": "6447aed32837d0824859",
     "url": "/accord/static/js/3.c5efe5aa.chunk.js"
   },
   {
-    "revision": "400a9994126ba64db646",
+    "revision": "d3d8ed5ed37f1638cdb6",
     "url": "/accord/static/js/4.657fa8af.chunk.js"
   },
   {
-    "revision": "e2a81c0e3707fad00782",
-    "url": "/accord/static/js/5.e83f6d57.chunk.js"
+    "revision": "46c6e727e7c5f359257e",
+    "url": "/accord/static/js/5.5fd51083.chunk.js"
   },
   {
     "revision": "75bddf70acb4d3c58cb6",
@@ -56,12 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/accord/static/js/7.2220fad1.chunk.js"
   },
   {
-    "revision": "5a21e332c51beaddd081",
-    "url": "/accord/static/js/main.af365a68.chunk.js"
+    "revision": "48b60ae844496a484b17",
+    "url": "/accord/static/js/main.a7ed9b9b.chunk.js"
   },
   {
-    "revision": "c1c0f85d1002a86b5e28",
-    "url": "/accord/static/js/runtime-main.c7d8819d.js"
+    "revision": "2b77b2b00dfa29e5f063",
+    "url": "/accord/static/js/runtime-main.2d631fa2.js"
   },
   {
     "revision": "5e946c20186e33b608fbb3388fff6ff5",
