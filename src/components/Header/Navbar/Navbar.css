@@ -20,3 +20,33 @@
   .nav__link.active {
     color: #999;
   }
+
+  @media (max-width: 768px){
+    .nav__link{
+      font-size: 15px;
+      padding-left: 10px;
+    }
+  }
+
+  @media (max-width: 420px){
+    .header__nav{
+      display:flex;
+      flex-direction: column;
+      position: absolute;
+      right:0;
+      background-color: rgba(60, 50, 84, 0.5);
+      width:55px;
+      max-width: 1250px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav__link{
+      width: 100%;
+      font-size: 15px;
+      padding: 15px 0;
+      text-align: center;
+      color: rgb(190, 185, 75);
+      text-decoration: none;
+      /* border-right: 1px solid rgba(191, 157, 201, 0.1); */
+    }
+  } 
