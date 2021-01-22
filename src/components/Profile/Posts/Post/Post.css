@@ -4,7 +4,7 @@
 .profile__headerPost{
   display: flex;
   justify-content: space-between;
-  padding: 20px 20px 0 20px;
+  padding: 10px 10px 0 10px;
 }
 .profile__headerPost_wrapper{
   display: flex;
@@ -20,7 +20,7 @@
   position: relative;
 }
 .profile__namePost{
-  font-size: 18px;
+  font-size: 15px;
   color: rgb(190, 185, 75);
 }
 .profile__post_time{
@@ -39,7 +39,7 @@
   display: block;
   overflow: hidden;
   width:95%;
-  font-size: 24px;
+  font-size: 18px;
   padding:30px 30px 40px 30px;
   letter-spacing: 1px;
   line-height: 1.5;
@@ -69,6 +69,6 @@
 }
 @media (max-width: 420px){
   .profile__postBody{
-    font-size: 18px;
+    font-size: 15px;
   }
 }

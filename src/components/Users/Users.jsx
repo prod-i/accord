@@ -23,14 +23,16 @@ const Users = ({usersData, unfollowTC, followTC, followingProgres}) => {
                 </div>
                 <div className="users__options">
                     <div className="users__settings">●●●</div>
-                    {item.followed
-                        ? <button disabled={followingProgres.some(id => id === item.id)} className="users__follow" onClick={() => {
-                            unfollowTC(item.id);
-                        }}>unfollow</button>
-                        : <button disabled={followingProgres.some(id => id === item.id)} className="users__follow" onClick={() => {
-                            followTC(item.id);
-                        }}>follow</button>
-                    }
+                    <div className="users_button">
+                        {item.followed
+                            ? <button disabled={followingProgres.some(id => id === item.id)} className="users__follow" onClick={() => {
+                                unfollowTC(item.id);
+                            }}>unfollow</button>
+                            : <button disabled={followingProgres.some(id => id === item.id)} className="users__follow" onClick={() => {
+                                followTC(item.id);
+                            }}>follow</button>
+                        }
+                    </div>
                 </div>
                 </div>)
         }

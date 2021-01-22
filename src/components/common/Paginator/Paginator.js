@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Paginator.css';
 
 
-const Paginator = ({totalItemsCount, pageUsersSize, currentPage, onPageChanged, portionSize = 10}) => {
+const Paginator = ({totalItemsCount, pageUsersSize, currentPage, onPageChanged, portionSize = 8}) => {
     let pagesCount = Math.ceil(totalItemsCount / pageUsersSize);
     let pages = [];
     for (let i = 1; i <= pagesCount; i++) {

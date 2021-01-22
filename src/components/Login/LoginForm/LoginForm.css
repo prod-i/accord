@@ -39,3 +39,18 @@
     border: 0;
     outline: 0;
 }
+
+@media(max-width: 770px){
+    .Login_form{
+        width: 290px;
+        height: 70%;
+    }
+    .Login_login{
+        width: 100%;
+        padding: 12px;
+    }
+    .Login_button{
+        padding: 20px 40px;
+
+    }
+}

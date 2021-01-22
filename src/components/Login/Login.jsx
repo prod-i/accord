@@ -18,7 +18,7 @@ const Login = ({login, isAuth, captchaUrl}) => {
     }
     return (
         <div className="Login">
-            <p className="Login_Title">sign in</p>
+            <p className="Login_Title">sign in </p>
 
             <LoginReduxForm onSubmit={onSubmit} captchaUrl={captchaUrl}/>
 

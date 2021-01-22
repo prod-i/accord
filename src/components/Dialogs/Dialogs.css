@@ -1,5 +1,6 @@
 .Dialogs{
-    padding-top: 100px ;
+    padding-top: 100px;
+    width: 100%;
 }
 .dialogs__wrapper{
     display: flex;
