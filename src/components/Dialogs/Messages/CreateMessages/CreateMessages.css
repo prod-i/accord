@@ -1,13 +1,9 @@
 .messages_create_message{
     display: flex;
     align-items: center;
+    width: 100%;
     height: 10%;
     min-height: 7%;
     max-height: 20%;
     border-top: 1px solid rgba(255,255,255, 0.1);
-}
-.add__img{
-    font-size: 18px;
-    padding-left: 30px;
-    width: 10%;
 }

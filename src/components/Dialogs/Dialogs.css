@@ -5,7 +5,17 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    width: 95%;
+    width: 100%;
     height: 85vh;
     margin-bottom: 40px;
+}
+.selectDialog{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+}
+@media (max-width: 420px){
+    .selectDialog{
+        display: none;
+    }
 }

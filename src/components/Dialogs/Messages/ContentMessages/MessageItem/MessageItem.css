@@ -2,7 +2,6 @@
     width: 100%;
 }
 .message__item{
-    line-height: 25px;
     background-color: #3f3d4d;
     border-radius: 10px 10px 10px 0;
     padding: 10px;
@@ -11,5 +10,20 @@
     min-width: 20%;
     max-width: 60%;
     margin-bottom: 10px;
-    word-break:break-all;
+    display: block;
+    overflow: hidden;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+@media (max-width: 770px){
+    .message__item{
+        font-size: 13px;
+    }
+}
+@media (max-width: 420px){
+    .message__item{
+        font-size: 12px;
+    }
 }

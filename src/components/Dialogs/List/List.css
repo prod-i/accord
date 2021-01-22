@@ -6,7 +6,7 @@
 }
 .dialogs__item{
     width:100%;
-    height: 70px;
+    height: 65px;
     display: flex;
     padding: 10px;
     margin-bottom: 10px;
@@ -15,13 +15,19 @@
     background-color: #2b2538;
 }
 .dialogs__item_avatar{
-    width:50px;
-    height: 50px;
+    width:40px;
+    height: 40px;
     border-radius: 50%;
     margin-right: 30px;
     align-self: center;
     overflow: hidden;
     position: relative;
+}
+.avatar{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .item__wrapper{
     width: 81%;
@@ -32,7 +38,7 @@
     width: 100%;
 }
 .dialogs__item_name{
-    font-size: 18px;
+    font-size: 16px;
 }
 .dialogs__item_time{
     font-size: 10px;
@@ -42,5 +48,40 @@
     margin-top: 5px;
 }
 .dialogs__minimessage_text{
-    font-size: 15px;
+    font-size: 13px;
+}
+
+@media (max-width: 1024px){
+    .dialogs__item_name{
+        font-size: 13px;
+    }
+    .dialogs__minimessage_text{
+        font-size: 10px;
+    }
+}
+@media (max-width: 770px){
+    .dialogs__list{
+        overflow: auto;
+        border-right: 1px solid rgba(255,255,255, 0.1);
+        width: 40%;
+        padding-top: 10px;
+    }
+    .dialogs__item_avatar{
+        margin-right: 10px;
+    }
+    .dialogs__item_name{
+        font-size: 12px;
+    }
+    .dialogs__minimessage_text{
+        font-size: 8px;
+    }
+    .dialogs__item_time{
+        font-size: 8px;
+    }
+}
+@media (max-width: 420px){
+    .dialogs__list{
+        width: 100%;
+        border-right: none;
+    }
 }

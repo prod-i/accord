@@ -1,1 +1,12 @@
-test
+<div className="dialogs__wrapper wrapper">
+                {!showMode
+                ?   <><List 
+                        listData={props.listData}
+                    />    
+                    <div className="">Выбирите диалог</div></>
+                :   <Messages 
+                        messagesData={props.messagesData} 
+                        addMessage={props.addMessage}
+                    />    
+                }
+                </div>

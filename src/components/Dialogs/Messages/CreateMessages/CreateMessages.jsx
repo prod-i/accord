@@ -10,7 +10,6 @@ const CreateMessages = (props) => {
     }
     return (
         <div className="messages_create_message">
-            <div className="add__img"><i className="fa fa-plus-circle" aria-hidden="true"></i></div>     {/* add document */}
 
             <AddMessageFormRedux onSubmit={addMessage} />
 

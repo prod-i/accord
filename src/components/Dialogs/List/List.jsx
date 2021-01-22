@@ -5,7 +5,7 @@ import './List.css';
 const DialogItem = (props) => {
     let src = "/dialogs/" + props.id;
     return (
-        <NavLink to={src} className="dialogs__item" activeClassName='active'>
+        <NavLink to={src} className="dialogs__item" activeClassName='active' onClick={() => {props.сheckShowMode(true)}}>
             <div className="dialogs__item_avatar">
                 <img src="https://sun9-49.userapi.com/c845122/v845122315/18e5e0/iAoBtrsGeFo.jpg" className="dialogs__item_avatar avatar" alt="avatar" />
             </div>
@@ -27,7 +27,7 @@ const DialogItem = (props) => {
 const List = (props) => {
     let state = props.listData;
     let dialogsListItem = state
-        .map((item) => <DialogItem key={item.id} name={item.name} id={item.id} />);
+        .map((item) => <DialogItem key={item.id} name={item.name} id={item.id} сheckShowMode={props.сheckShowMode}/>);
 
     return (
         <div className="dialogs__list">

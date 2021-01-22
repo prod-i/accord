@@ -7,19 +7,66 @@
     padding: 10px;
     box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.2);
 }
+.arow{
+    width: 5%;
+}
 .messages__item_avatar{
-    width:50px;
-    height: 50px;
+    width:40px;
+    height: 40px;
+    margin-top: 2px;
     border-radius: 50%;
     margin-right: 30px;
     align-self: center;
     overflow: hidden;
     position: relative;
 }
+.avatar{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 .messages__user_info{
-    text-align: center;    
+    text-align: center; 
+    width: 50%;   
 }
 .messages__settings{
     margin-left: 50px;
     padding-right: 15px;
+    width: 10%; 
+}
+
+
+@media (max-width: 1024px){
+    .arow{
+        width: 10%;
+        margin: 0 10px;
+    }
+    .messages__user_info{
+        width: 30%;   
+    }
+}
+@media (max-width: 420px){
+    .arow{
+        width:15%;
+        margin: 0 10px;
+    }
+    .messages__user_info{
+        width: 50%;   
+    }
+    .messages__settings{
+        margin:0 10px;
+        padding-right: 15px;
+        width: 10%; 
+    }
+    .messages__item_avatar{
+        width:30px;
+        height: 30px;
+        margin-top: 2px;
+        border-radius: 50%;
+        margin-right: 20px;
+        align-self: center;
+        overflow: hidden;
+        position: relative;
+    }
 }

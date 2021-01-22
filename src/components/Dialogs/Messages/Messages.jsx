@@ -10,8 +10,7 @@ import CreateMessages from './CreateMessages/CreateMessages';
 const Messages = (props) => {
     return (
         <div className="messages">
-           
-            <HeaderMessages />
+            <HeaderMessages сheckShowMode={props.сheckShowMode}/>
 
             <ContentMessages 
                 messagesData={props.messagesData}

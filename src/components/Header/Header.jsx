@@ -11,14 +11,14 @@ const Header = (props) => {
 
                 <div className="header__logo logo"><NavLink to="/" activeClassName='active'>accord</NavLink></div>
                 {!showMenu
-                ?   <div className="burger active">
+                ?   <div className="burger">
                         {!props.isAuth ? <></> : <Navbar />}
 
                         <div className="header__login">
                             {props.isAuth ? <NavLink to={'/login'}><button className='header_login__b' onClick={props.logout}>log out</button></NavLink> : <NavLink to={'/login'}>log in</NavLink>}
                         </div>
                     </div>
-                :   <div className="burger">
+                :   <div className="burger active">
                         {!props.isAuth ? <></> : <Navbar />}
 
                         <div className="header__login">

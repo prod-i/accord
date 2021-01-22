@@ -37,7 +37,6 @@
 }
 .profile__postBody{
   display: block;
-  word-break:break-all;
   overflow: hidden;
   width:95%;
   font-size: 24px;
