@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/accord/static/css/main.be1344c2.chunk.css",
-    "main.js": "/accord/static/js/main.d0f0543a.chunk.js",
-    "main.js.map": "/accord/static/js/main.d0f0543a.chunk.js.map",
-    "runtime-main.js": "/accord/static/js/runtime-main.80ecdec9.js",
-    "runtime-main.js.map": "/accord/static/js/runtime-main.80ecdec9.js.map",
+    "main.js": "/accord/static/js/main.af365a68.chunk.js",
+    "main.js.map": "/accord/static/js/main.af365a68.chunk.js.map",
+    "runtime-main.js": "/accord/static/js/runtime-main.c7d8819d.js",
+    "runtime-main.js.map": "/accord/static/js/runtime-main.c7d8819d.js.map",
     "static/js/2.982718ba.chunk.js": "/accord/static/js/2.982718ba.chunk.js",
     "static/js/2.982718ba.chunk.js.map": "/accord/static/js/2.982718ba.chunk.js.map",
-    "static/css/3.aa94fa51.chunk.css": "/accord/static/css/3.aa94fa51.chunk.css",
-    "static/js/3.634688ff.chunk.js": "/accord/static/js/3.634688ff.chunk.js",
-    "static/js/3.634688ff.chunk.js.map": "/accord/static/js/3.634688ff.chunk.js.map",
-    "static/css/4.409cfab4.chunk.css": "/accord/static/css/4.409cfab4.chunk.css",
+    "static/css/3.471c7e8e.chunk.css": "/accord/static/css/3.471c7e8e.chunk.css",
+    "static/js/3.c5efe5aa.chunk.js": "/accord/static/js/3.c5efe5aa.chunk.js",
+    "static/js/3.c5efe5aa.chunk.js.map": "/accord/static/js/3.c5efe5aa.chunk.js.map",
+    "static/css/4.46ebee01.chunk.css": "/accord/static/css/4.46ebee01.chunk.css",
     "static/js/4.657fa8af.chunk.js": "/accord/static/js/4.657fa8af.chunk.js",
     "static/js/4.657fa8af.chunk.js.map": "/accord/static/js/4.657fa8af.chunk.js.map",
     "static/css/5.1a618e48.chunk.css": "/accord/static/css/5.1a618e48.chunk.css",
@@ -23,10 +23,10 @@
     "static/js/7.2220fad1.chunk.js": "/accord/static/js/7.2220fad1.chunk.js",
     "static/js/7.2220fad1.chunk.js.map": "/accord/static/js/7.2220fad1.chunk.js.map",
     "index.html": "/accord/index.html",
-    "precache-manifest.77174910aaf2c800a50c2eed8a4f7d1f.js": "/accord/precache-manifest.77174910aaf2c800a50c2eed8a4f7d1f.js",
+    "precache-manifest.113e6fd4326ad321c10909b1d585c3eb.js": "/accord/precache-manifest.113e6fd4326ad321c10909b1d585c3eb.js",
     "service-worker.js": "/accord/service-worker.js",
-    "static/css/3.aa94fa51.chunk.css.map": "/accord/static/css/3.aa94fa51.chunk.css.map",
-    "static/css/4.409cfab4.chunk.css.map": "/accord/static/css/4.409cfab4.chunk.css.map",
+    "static/css/3.471c7e8e.chunk.css.map": "/accord/static/css/3.471c7e8e.chunk.css.map",
+    "static/css/4.46ebee01.chunk.css.map": "/accord/static/css/4.46ebee01.chunk.css.map",
     "static/css/5.1a618e48.chunk.css.map": "/accord/static/css/5.1a618e48.chunk.css.map",
     "static/css/6.fd1f9338.chunk.css.map": "/accord/static/css/6.fd1f9338.chunk.css.map",
     "static/css/7.34e8a3e8.chunk.css.map": "/accord/static/css/7.34e8a3e8.chunk.css.map",
@@ -35,9 +35,9 @@
     "static/media/users-avatar.svg": "/accord/static/media/users-avatar.5e946c20.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.80ecdec9.js",
+    "static/js/runtime-main.c7d8819d.js",
     "static/js/2.982718ba.chunk.js",
     "static/css/main.be1344c2.chunk.css",
-    "static/js/main.d0f0543a.chunk.js"
+    "static/js/main.af365a68.chunk.js"
   ]
 }
