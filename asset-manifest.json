@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/accord/static/css/main.d4ca2ab0.chunk.css",
+    "main.css": "/accord/static/css/main.1e363adc.chunk.css",
     "main.js": "/accord/static/js/main.a7ed9b9b.chunk.js",
     "main.js.map": "/accord/static/js/main.a7ed9b9b.chunk.js.map",
     "runtime-main.js": "/accord/static/js/runtime-main.2d631fa2.js",
@@ -23,21 +23,21 @@
     "static/js/7.2220fad1.chunk.js": "/accord/static/js/7.2220fad1.chunk.js",
     "static/js/7.2220fad1.chunk.js.map": "/accord/static/js/7.2220fad1.chunk.js.map",
     "index.html": "/accord/index.html",
-    "precache-manifest.63d64f760058c3a37e5ae90d5d269658.js": "/accord/precache-manifest.63d64f760058c3a37e5ae90d5d269658.js",
+    "precache-manifest.4d15823e081a870642c8864367d38975.js": "/accord/precache-manifest.4d15823e081a870642c8864367d38975.js",
     "service-worker.js": "/accord/service-worker.js",
     "static/css/3.01e9c5c3.chunk.css.map": "/accord/static/css/3.01e9c5c3.chunk.css.map",
     "static/css/4.aebaaae2.chunk.css.map": "/accord/static/css/4.aebaaae2.chunk.css.map",
     "static/css/5.3da6b11e.chunk.css.map": "/accord/static/css/5.3da6b11e.chunk.css.map",
     "static/css/6.fd1f9338.chunk.css.map": "/accord/static/css/6.fd1f9338.chunk.css.map",
     "static/css/7.34e8a3e8.chunk.css.map": "/accord/static/css/7.34e8a3e8.chunk.css.map",
-    "static/css/main.d4ca2ab0.chunk.css.map": "/accord/static/css/main.d4ca2ab0.chunk.css.map",
+    "static/css/main.1e363adc.chunk.css.map": "/accord/static/css/main.1e363adc.chunk.css.map",
     "static/js/2.982718ba.chunk.js.LICENSE.txt": "/accord/static/js/2.982718ba.chunk.js.LICENSE.txt",
     "static/media/users-avatar.svg": "/accord/static/media/users-avatar.5e946c20.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2d631fa2.js",
     "static/js/2.982718ba.chunk.js",
-    "static/css/main.d4ca2ab0.chunk.css",
+    "static/css/main.1e363adc.chunk.css",
     "static/js/main.a7ed9b9b.chunk.js"
   ]
 }
